@@ -1,0 +1,20 @@
+name: Simple Gamemode
+main: net.icraft.sgm.main
+version: 1.0
+description: Toggle your gamemode in one simple command.
+commands:
+  gm:
+    description: Toggles game mode to creative.
+    usage: /gm
+  c:
+    description: Change your gamemode to creative.
+    aliases: [creative]
+    usage: /c
+  s:
+    description: Change your gamemode to survival.
+    aliases: [survival]
+    usage: /s
+  a:
+    description: Change your gamemode to adventure.
+    aliases: [adventure]
+    usage: /a
